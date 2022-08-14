@@ -1,0 +1,87 @@
+
+
+.flex-container {      
+    border: 10px solid rgb(233, 219, 219);
+    border-width: 2px;
+    background-color: white;
+    width: 137px;
+    height: 157px;
+}
+
+ .flex-container { 
+     display: inline-block; 
+      justify-content: center; /* щось я наплутала, бо сам контейнер не стає посередині */
+ } 
+
+.flex-item {
+    padding: 10px;
+    
+}
+
+.item-1 {
+    background-image: linear-gradient(45deg, rgb(194, 27, 209), rgb(4, 88, 121));
+}
+
+.item-2 {
+    background-image: linear-gradient(45deg, rgb(153, 14, 130), rgb(35, 4, 121));
+}
+.item-3 {
+    background-image: linear-gradient(45deg, rgb(255, 7, 160), rgb(121, 104, 4));
+}
+.item-4 {
+    background-image: linear-gradient(45deg, rgb(0, 238, 255), rgb(4, 88, 121));
+}
+.item-5 {
+    background-image: linear-gradient(45deg, rgb(0, 200, 214), rgb(121, 4, 39));
+}
+.item-6 {
+    background-image: linear-gradient(45deg, rgb(58, 207, 218), rgb(8, 121, 4));
+}
+.item-7 {
+    background-image: linear-gradient(45deg, rgb(78, 249, 255), rgb(0, 164, 214));
+}
+.item-8 {
+    background-image: linear-gradient(45deg, rgb(255, 238, 0), rgb(0, 157, 219));
+}
+.item-9 {
+    background-image: linear-gradient(45deg, rgb(255, 241, 41), rgb(17, 51, 65));
+}
+.item-10 {
+    background-image: linear-gradient(45deg, rgb(255, 208, 0), rgb(22, 4, 121));
+}
+.item-11 {
+    background-image: linear-gradient(45deg, rgb(255, 239, 11), rgb(44, 5, 82));
+}
+.item-12 {
+    background-image: linear-gradient(45deg, rgb(0, 110, 59),rgb(9, 105, 161));
+}
+.item-13 {
+    background-image: linear-gradient(45deg, rgb(0, 121, 64), rgb(182, 82, 120));
+}
+.item-14 {
+    background-image: linear-gradient(45deg, rgb(24, 121, 0), rgb(28, 197, 28));
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
